@@ -1,0 +1,91 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  color: #fff;
+}
+.section h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.section h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.logo-link {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.fisrt-word {
+  color: #4d5ae5;
+}
+.second-word {
+  color: #2e2f42;
+}
+.link {
+  color: #434455;
+  text-decoration: none;
+  letter-spacing: 4%;
+  font-size: 12px;
+  font-weight: 400s;
+}
+
+.link:hover {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
+link:focus {
+  color: #4d5ae5;
+}
+
+.hero-button {
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--CLOUD, #f4f4fd);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #404bbf;
+  color: #fff;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
