@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -21,13 +21,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   background: #ffffff;
-}
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
-  color: #fff;
 }
 .section h2 {
   color: #2e2f42;
@@ -47,7 +40,7 @@ h1 {
   letter-spacing: 0.4px;
 }
 .logo {
-  font-style: Raleway, sans-serif;
+  font-style: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -81,6 +74,11 @@ link:focus {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
   background: #4d5ae5;
@@ -89,6 +87,9 @@ link:focus {
   cursor: pointer;
 }
 .hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
   background-color: #404bbf;
 }
 .button {
@@ -109,4 +110,15 @@ link:focus {
 
 .list {
   list-style: none;
+}
+
+.primary-section {
+  background-color: #2e2f42;
+}
+.primary-title {
+  font-size: 56px;
+  line-height: 1.07em;
+  text-align: center;
+  letter-spacing: 0.002em;
+  color: #ffffff;
 }
