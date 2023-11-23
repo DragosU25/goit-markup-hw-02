@@ -50,31 +50,34 @@ h1 {
   font-style: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: var(--font-weight-extra);
-  line-height: 1.17rem;
-  letter-spacing: 0.03rem;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.link {
+  text-decoration: none;
 }
 .second-word {
   color: #2e2f42;
 }
 .list-link {
-  color: #434455;
+  color: #2e2f42;
   text-decoration: none;
-  letter-spacing: 4%;
-  font-size: 12px;
-  font-weight: 400s;
+  letter-spacing: 0.002em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
 .list-link:hover {
-  color: #4d5ae5;
-  text-decoration: underline;
+  color: #404bbf;
 }
 
 link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .hero-button {
