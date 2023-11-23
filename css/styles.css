@@ -119,13 +119,6 @@ body {
   list-style: none;
 }
 
-.hide {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2em;
-  color: #2e2f42;
-}
-
 .section-title {
   text-align: center;
   text-transform: capitalize;
