@@ -1,3 +1,17 @@
+:root {
+  --primary-color: #434455;
+  --font-size-logo: 18px;
+  --font-size-body: 16px;
+  --font-size-title: 56px;
+  --font-size-header2: 36px;
+  --font-size-header3: 20px;
+  --font-size-small: 12px;
+  --font-weight-extra: 800;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -6,6 +20,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  background-color: #ffffff;
 }
 h1 {
   font-weight: 700;
@@ -31,22 +46,21 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-.logo-link {
-  font-size: 18px;
+.link {
+  font-style: Raleway, sans-serif;
+  font-size: var(--font-size-logo);
   font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  font-weight: var(--font-weight-extra);
+  line-height: 1.17rem;
+  letter-spacing: 0.03rem;
   text-decoration: none;
   text-transform: uppercase;
-}
-.fisrt-word {
   color: #4d5ae5;
 }
 .second-word {
   color: #2e2f42;
 }
-.link {
+.list-link {
   color: #434455;
   text-decoration: none;
   letter-spacing: 4%;
@@ -54,7 +68,7 @@ h1 {
   font-weight: 400s;
 }
 
-.link:hover {
+.list-link:hover {
   color: #4d5ae5;
   text-decoration: underline;
 }
@@ -88,4 +102,8 @@ link:focus {
 
 .footer-text {
   color: #f4f4fd;
+}
+
+.list {
+  list-style: none;
 }

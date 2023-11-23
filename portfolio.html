@@ -7,44 +7,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>goit-markup-hw-02</title>
   </head>
   <body>
     <header>
-      <div class="header">
-        <nav class="primary-nav-bar">
-          <div class="logo">
-            <a href="./index.html" class="logo-link"
-              ><span class="first-word">Web</span
-              ><span class="second-word">Studio</span></a
+      <nav>
+        <a href="./index.html" class="link"
+          >Web<span class="second-word">Studio</span></a
+        >
+        <ul class="list">
+          <li><a href="index.html" class="list-link">Studio</a></li>
+          <li><a href="portfolio.html" class="list-link">Portfolio</a></li>
+          <li><a href="www." class="list-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="header-address">
+          <li>
+            <a href="mailto:info@devstudio.com" class="list-link"
+              >info@devstudio.com</a
             >
-          </div>
-
-          <ul role="list" class="primary-nav-links">
-            <li><a href="index.html" class="link">Studio</a></li>
-            <li><a href="portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="www." class="link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul role="list" class="header-address">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="list-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
-      <ul role="list" class="navigation-buttons">
+      <ul class="navigation-buttons">
         <li><button type="button" class="button">All</button></li>
         <li><button type="button" class="button">Web Site</button></li>
         <li><button type="button" class="button">App</button></li>
@@ -52,7 +48,7 @@
         <li><button type="button" class="button">Marketing</button></li>
       </ul>
       <section class="section">
-        <ul role="list">
+        <ul>
           <li>
             <img src="./images/portofolio-img1.jpg" alt="" width="360" />
             <h3>Banking App Interface Concept</h3>
