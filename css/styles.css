@@ -22,23 +22,6 @@ body {
   letter-spacing: 0.32px;
   background: #ffffff;
 }
-.section h2 {
-  color: #2e2f42;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.3px;
-  text-transform: uppercase;
-}
-.section h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
 .logo {
   font-style: "Raleway", sans-serif;
   font-size: 18px;
@@ -59,7 +42,7 @@ body {
 .list-link {
   color: #2e2f42;
   text-decoration: none;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -69,7 +52,24 @@ body {
   color: #404bbf;
 }
 
-link:focus {
+.list-link:focus {
+  color: #404bbf;
+}
+.contact {
+  font-style: normal;
+}
+
+.contact-link {
+  color: #434455;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.contact-link:hover {
+  color: #404bbf;
+}
+.contact-link:focus {
   color: #404bbf;
 }
 
