@@ -1,16 +1,25 @@
 :root {
-  color: #434455;
-  font-size: 18px;
-  font-size: 16px;
-  font-size: 56px;
-  font-size: 36px;
-  font-size: 20px;
-  font-size: 12px;
-  font-weight: 800;
-  font-weight: 700;
-  font-weight: 400;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --succes: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --modal-overlay: #f4f4fd;
+  --hero-background: #2e2f42;
+  --white-background: #2e2f42;
+  --mmodal-background: #ffffff;
+  --fs-small: 18px;
+  --fs-body: 16px;
+  --fs-title: 56px;
+  --fs-h2: 36px;
+  --fs-medoi: 20px;
+  --fs-extra-small: 12px;
+  --fw-blackt: 800;
+  --fw-boldt: 700;
+  --fw-normalt: 400;
+  --fw-mediumt: 500;
 }
 
 body {
