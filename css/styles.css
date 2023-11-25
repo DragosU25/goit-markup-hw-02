@@ -251,6 +251,8 @@ header {
 
 section .list > li {
   margin: 0 12px;
+  border: 1px solid var(--accent, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
 
 .portfolio-list {
@@ -258,6 +260,7 @@ section .list > li {
   flex-wrap: wrap;
   width: 95%;
   padding: 0;
+  gap: 32px;
 }
 
 .portfolio-list a {
