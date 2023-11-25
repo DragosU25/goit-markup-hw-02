@@ -32,6 +32,7 @@ body {
   letter-spacing: 0.02em;
   background: #ffffff;
   box-sizing: border-box;
+  margin: 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -197,4 +198,28 @@ body {
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin-top: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list a {
+  margin-left: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.primary-section {
+  height: 600px;
 }
