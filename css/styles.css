@@ -152,7 +152,7 @@ body {
   line-height: 1.5em;
   color: #f4f4fd;
 }
-.span {
+.footer-content .span {
   color: #f4f4f4fd;
 }
 
@@ -190,4 +190,11 @@ body {
 
 .portfolio-text {
   color: #434455;
+}
+
+.navigation-buttons {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
 }
