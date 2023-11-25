@@ -84,13 +84,14 @@ body {
 }
 .primary-section {
   background-color: #2e2f42;
+  text-align: center;
 }
 .primary-title {
   letter-spacing: 0.02em;
   font-size: 56px;
   line-height: 1.07em;
-  text-align: center;
   color: #ffffff;
+  padding-top: 188px;
 }
 
 .hero-button {
@@ -105,6 +106,9 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   cursor: pointer;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -137,6 +141,7 @@ body {
   font-size: 20px;
   line-height: 1.2em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .sub-text {
@@ -147,11 +152,22 @@ body {
 }
 .footer-content {
   background-color: #2e2f42;
+  height: 312px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-logo {
+  margin-left: 156px;
 }
 
 .footer-text {
   line-height: 1.5em;
   color: #f4f4fd;
+  width: 264px;
+  margin-left: 156px;
 }
 .footer-content .span {
   color: #f4f4fd;
@@ -202,6 +218,7 @@ body {
 .nav-bar {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 .logo {
   margin-top: 1rem;
@@ -222,4 +239,23 @@ header {
 
 .primary-section {
   height: 600px;
+}
+
+.first-section .list > li {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+section .list > li {
+  margin: 0 12px;
+}
+
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-top: 72px;
 }
