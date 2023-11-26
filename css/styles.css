@@ -31,8 +31,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   background: #ffffff;
-  box-sizing: border-box;
-  margin: 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -100,15 +98,9 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  padding: 16px 32px;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   cursor: pointer;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 10px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -134,11 +126,6 @@ body {
 }
 .team-member {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .sub-title {
   letter-spacing: 0.02em;
@@ -157,19 +144,11 @@ body {
 }
 .footer-content {
   background-color: #2e2f42;
-  height: 312px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
 }
 
 .footer-text {
   line-height: 1.5em;
   color: #f4f4fd;
-  width: 264px;
-  margin-left: 156px;
 }
 .footer-content .span {
   color: #f4f4fd;
@@ -181,9 +160,6 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  padding: 12px 24px;
-  border-radius: 4px;
-  border: 1px solid #e7e9fc;
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
@@ -209,67 +185,4 @@ body {
 
 .portfolio-text {
   color: #434455;
-}
-
-.navigation-buttons {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-bar {
-  display: flex;
-}
-.nav-bar .list {
-  margin-left: 76px;
-}
-.logo {
-  margin-top: 1rem;
-  margin-left: 156px;
-}
-
-.list {
-  display: flex;
-  justify-content: center;
-}
-.list a {
-  margin-left: 40px;
-}
-
-header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.primary-section {
-  height: 600px;
-}
-
-.first-section .list > li {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-section .list > li {
-  margin: 0 12px;
-}
-
-.portfolio-list > li {
-  border: 1px solid var(--accent, #e7e9fc);
-  background: var(--WHITE, #fff);
-}
-
-.portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  gap: 32px;
-}
-
-.portfolio-list a {
-  margin: 0;
 }
